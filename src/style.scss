@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+$white: #fff;
+$black: #000;
+$gray: #555;
+
+.site-header {
+    border-bottom: 1px solid $gray;
+}
+
+body {
+    background: $white;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+
+.title{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.player {
+    width: 6rem;
+}
+
+.money-barre {
+    padding: 0.5rem;
+}
+.main {
+    min-height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.product-picture {
+    width: 3rem;
+}
+
+.progress {
+    height:3rem !important;
+    border-radius: 2rem;
+
+}
+
+.product-row:hover {
+   cursor: pointer;
+}
+
